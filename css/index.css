@@ -1,0 +1,29 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+header, footer, section, aside {
+    border:1px solid red;
+    margin:10px;
+    padding:5px;
+}
+header {
+    position:fixed;
+    width:100%;
+    height:100px;
+    top:0;
+    background-color:white;
+}
+aside,section{
+    margin-top:130px;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:white;
+    margin-bottom:0;
+}
+footer li{
+    list-style-type:none;
+}
